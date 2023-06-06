@@ -34,12 +34,12 @@ La API no debe permitir los registros duplicados (que contengan el mismo título
 Mostrar todos los tópicos creados
 La API debe tener un endpoint para la lista de todos los tópicos y debe aceptar solicitudes GET para el URI /topicos.
 
-## Los datos del tópico (título, mensaje, fecha de creación, estatus autor y curso) deben devolverse en el cuerpo de la respuesta, en formato JSON.
+Los datos del tópico (título, mensaje, fecha de creación, estatus autor y curso) deben devolverse en el cuerpo de la respuesta, en formato JSON.
 
 ## Mostrar un tópico específico
 La API debe tener un endpoint para la lista de todos los tópicos y debe aceptar solicitudes GET para el URI /topicos/{id}.
 
-## Los datos del tópico (título, mensaje, fecha de creación, estatus autor y curso) deben devolverse en el cuerpo de la respuesta, en formato JSON.
+Los datos del tópico (título, mensaje, fecha de creación, estatus autor y curso) deben devolverse en el cuerpo de la respuesta, en formato JSON.
 
 ## Actualizar un tópico
 La API debe tener un endpoint para el registro de nuevos tópicos y debe aceptar solicitudes PUT para el URI /topicos/{id}.
