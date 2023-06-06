@@ -1,54 +1,43 @@
-# Challenge ONE | Back End | Foro Alura 
+# Challenge ONE | Back End | Foro Alura
 
 <p align="center" >
-     <img width="200" heigth="200" src="https://user-images.githubusercontent.com/91544872/209678377-70b50b21-33de-424c-bed8-6a71ef3406ff.png">
+     <img width="200" height="200" src="https://user-images.githubusercontent.com/91544872/209678377-70b50b21-33de-424c-bed8-6a71ef3406ff.png">
 </p>
 
-### ¡Bienvenido al proyecto con las clases base del desafío Foro Alura con Java y Spring! 
+## ¡Bienvenido al proyecto con las clases base del desafío Foro Alura con Java y Spring! 
 
+## Tecnologías utilizadas
+- [MySql](https://www.mysql.com/)
+- [Java](https://www.java.com/en/)
+- [Spring Security](https://start.spring.io/)
+- [Token JWT](https://jwt.io/)
 
+## Funcionalidades
+Nuestra API se centra específicamente en los tópicos y permite a los usuarios realizar las siguientes acciones:
 
+### Crear un nuevo tópico
+La API cuenta con un endpoint para registrar nuevos tópicos y acepta solicitudes POST en la ruta `/topicos`. Los datos del tópico (título, mensaje, autor y curso) deben enviarse en el cuerpo de la solicitud en formato JSON.
 
+**Reglas del negocio**
+- Todos los campos son obligatorios.
+- La API no permite registros duplicados que contengan el mismo título y mensaje.
 
+### Mostrar todos los tópicos creados
+La API tiene un endpoint para obtener la lista de todos los tópicos y acepta solicitudes GET en la ruta `/topicos`. Los datos del tópico (título, mensaje, fecha de creación, estatus, autor y curso) se devuelven en el cuerpo de la respuesta en formato JSON.
 
-## Tecnologías utilizadas:
-```bash
-  - [MySql](https://www.mysql.com/)
-  - [Java](https://www.java.com/en/)
-  - [Spring Security](https://start.spring.io/)
-  - [Token JWT](https://jwt.io/)
-```
-  
+### Mostrar un tópico específico
+La API cuenta con un endpoint para obtener un tópico específico y acepta solicitudes GET en la ruta `/topicos/{id}`. Los datos del tópico (título, mensaje, fecha de creación, estatus, autor y curso) se devuelven en el cuerpo de la respuesta en formato JSON.
 
-##  Funcionalidades
-Nuestra API va a centrarse específicamente en los tópicos, y debe permitir a los usuarios realizar las siguientes acciones:
+### Actualizar un tópico
+La API tiene un endpoint para actualizar tópicos existentes y acepta solicitudes PUT en la ruta `/topicos/{id}`.
 
-## Crear un nuevo tópico
-La API debe tener un endpoint para el registro de nuevos tópicos y debe aceptar solicitudes POST para el URI /topicos.
+**Observación**
+- Se aplican las mismas reglas de negocio para la actualización de un tópico que para su registro.
 
-Los datos del tópico (título, mensaje, autor y curso) deben enviarse en el cuerpo de la solicitud, en formato JSON.
+### Eliminar un tópico
+La API cuenta con un endpoint para eliminar tópicos y acepta solicitudes DELETE en la ruta `/topicos/{id}`.
 
-## Reglas del negocio
-Todos los campos son obligatorios.
-La API no debe permitir los registros duplicados (que contengan el mismo título y mensaje).
-Mostrar todos los tópicos creados
-La API debe tener un endpoint para la lista de todos los tópicos y debe aceptar solicitudes GET para el URI /topicos.
-
-Los datos del tópico (título, mensaje, fecha de creación, estatus autor y curso) deben devolverse en el cuerpo de la respuesta, en formato JSON.
-
-## Mostrar un tópico específico
-La API debe tener un endpoint para la lista de todos los tópicos y debe aceptar solicitudes GET para el URI /topicos/{id}.
-
-Los datos del tópico (título, mensaje, fecha de creación, estatus autor y curso) deben devolverse en el cuerpo de la respuesta, en formato JSON.
-
-## Actualizar un tópico
-La API debe tener un endpoint para el registro de nuevos tópicos y debe aceptar solicitudes PUT para el URI /topicos/{id}.
-
-## Observación
-Las mismas reglas de negocio para el registro de un tópico deben ser aplicadas en la actualización del mismo.
-
-## Eliminar un tópico
-La API debe tener un endpoint para la eliminación de tópicos y debe aceptar solicitudes DELETE para el URI /topicos/{id}.
+---
 
 💙 Alura Latam
 
