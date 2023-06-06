@@ -7,19 +7,12 @@
 ### ¡Bienvenido al proyecto con las clases base del desafío Foro Alura con Java y Spring! 
 
 
-### Pasos principales:
 
-#### ⭐Marca este proyecto con una estrella 
-
-#### 📚Sigue las lecciones y las instrucciones de contenido 
-
-#### 📃Visita la página del Desafío [¡Haciendo clic aquí!](https://www.aluracursos.com/challenges/oracle-one-back-end/aluraforo) 
 
 
 
 - ### Tecnologías utilizadas:
 
-  - [Eclipse](https://www.eclipse.org/)
   - [MySql](https://www.mysql.com/)
   - [Java](https://www.java.com/en/)
 
