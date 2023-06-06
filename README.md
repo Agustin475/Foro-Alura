@@ -49,3 +49,4 @@ La API cuenta con un endpoint para eliminar tópicos y acepta solicitudes DELETE
 
 <h3>Preview</h3>
 [![Insomnia.jpg](https://i.postimg.cc/BbBmHChH/Insomnia.jpg)](https://postimg.cc/V059cXPk)
+[![2.jpg](https://i.postimg.cc/y8BV6f4j/2.jpg)](https://postimg.cc/QH4L0JMK)
